@@ -1,3 +1,4 @@
+/*
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -6,8 +7,9 @@ export default defineConfig({
   base: "/bestbank123",
   plugins: [react()],
 });
+*/
 
-/*import { defineConfig } from "vite";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import fs from "fs/promises";
 
