@@ -14,7 +14,7 @@ import react from "@vitejs/plugin-react";
 import fs from "fs/promises";
 
 export default defineConfig({
-  base: "/bestbank123",
+  base: "/bestbank123/",
   plugins: [react()],
   build: {
     rollupOptions: {
