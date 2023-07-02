@@ -1,5 +1,20 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  base: "/bestbank123/",
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: "src/main.jsx",
+      external: ["uuid"],
+    },
+  },
+});
+
+/*
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import fs from "fs/promises";
 
 export default defineConfig({
@@ -32,3 +47,4 @@ export default defineConfig({
     },
   },
 });
+*/
