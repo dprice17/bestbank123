@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import NavBar from "./NavBar.js";
-import AccountDetails from "./AccountDetails.js";
+import NavBar from "./NavBar.jsx";
+import AccountDetails from "./AccountDetails.jsx";
 import data from "./data.js";
 
 export default function App() {
