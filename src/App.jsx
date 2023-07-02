@@ -35,7 +35,7 @@ export default function App() {
   return (
     <div>
       <header>
-        <img className="bank-logo" src="./assets/bestbank_logo.png" />
+        <img className="bank-logo" src="/src/assets/bestbank_logo.png" />
       </header>
       <NavBar />
       <AccountDetails
