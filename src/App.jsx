@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import NavBar from "./NavBar.jsx";
 import AccountDetails from "./AccountDetails.jsx";
 import data from "./data.js";
-r;
+
 export default function App() {
   const [financialData, setFinancialData] = useState(data);
   const [renderSpendingInfo, setRenderSpendingInfo] = useState(false);
