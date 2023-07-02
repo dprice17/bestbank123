@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: "bestbank123/src/main.jsx",
+      input: "src/main.jsx",
       external: ["uuid"],
     },
   },
